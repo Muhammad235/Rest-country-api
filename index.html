@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rest Country Api</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="main-container">
+        <header>
+            <div class="container header-container">
+                <div class="header-left">
+                    <h1>Where in the world?</h1>
+                </div>
+                <div class="header-right">
+                    <h4>Dark mode</h4>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="nav-left">
+                <input type="text" name="search" id="country-name" placeholder="Search for a country" value="united">
+                <button id="search-btn">search</button>
+            </div>
+            <div class="nav-right">
+                <select name="Filter" id="filter">
+                    <option value="1">Filter by default</option>
+                    <option value="1">America</option>
+                    <option value="1">Asia</option>
+                    <option value="1">Europe</option>
+                    <option value="1">Ocenia</option>
+                </select>
+            </div>
+        </nav>
+        <section class="country-container">
+            <div id="country-details">
+                <figure>
+                    <img src="Chivito uruguayo.jpg" alt="" id="country-img">
+
+                    <figcaption>
+                        <h3 id="country-name">Germany</h3>
+                        <p>Population: <span id="population">81,770,900</span> </p>
+                        <p>Region: <span>Europe</span> </p>
+                        <p>Capital: <span>Berlin</span></p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+
+            </div>
+        </section>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
